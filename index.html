@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Assignment</title>
+    <script src="https://kit.fontawesome.com/663b6f1f0c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      p {
+        font-family: "PT", serif;
+        color: black;
+        font-size: 15px;
+      }
+
+      .container {
+        justify-content: center;
+      }
+
+      .container-wrapper {
+        width: 100%;
+      }
+      .GridOne {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        padding-top: 10px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        background: #f7f5f5;
+        height: 38px;
+      }
+
+      .GridOne p{
+        font-size: 15px;
+      
+      }
+      .GridTwo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        padding-top: 40px;
+        height: 0%;
+        
+      }
+
+      .red-text {
+        background-color: red;
+      }
+      .blue-text {
+        background-color: blue;
+      }
+      .yellow-text {
+        background-color: yellow;
+      }
+
+      .GridTwo p {
+        font-size: 15px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+
+      .GridThree {
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        width: 500px;
+        height: 300px;
+        padding-top: 60px;
+      }
+
+      .title {
+        background-color: rgb(241, 243, 243);
+      }
+
+      .title p {
+        color: #373535;
+        font-size: 15px;
+        font-family: "PT", serif;
+        margin-top: 5px;
+      }
+
+      .GridThree img {
+        width: 500px;
+        height: 225px;
+        object-fit: cover;
+      }
+
+      .gridFour {
+        display: grid;
+        grid-rows: 1fr 1fr;
+        background-color: green;
+        width: 500px;
+        padding-top: 0px;
+        margin-top: 20px;
+
+      }
+      .green-background {
+        display: grid;
+        
+      }
+           
+    #menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.grid-four p {
+  font-size: 15px;
+}
+
+.gridFive {
+  display: grid;
+  background-color: rgb(212, 216, 212);
+  width: 500px;
+  margin-top: 40px;
+ 
+}
+
+.grey-container {
+  column-gap: 50px;
+  grid-template-columns: 1fr 1fr;
+
+}
+.grey-container p {
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 150px;
+  align-items: end;
+  column-gap: 30px;
+
+
+}
+
+.imgs img {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  margin-bottom: 7px;
+  padding-left: 5px;
+  
+}
+
+.gridSix {
+  display: grid;
+  width: 500px;
+  background-color: #cfcdcd;
+  grid-template-columns: 125px 375px;
+  margin-top: 40px;
+  height: 50px;
+  
+}
+
+.gridSix p {
+  padding-top: 5px;
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 13px;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-wrapper">
+        <div class="GridOne">
+          <p><strong>Hello Word</strong></p>
+
+          <p style="color: blue; font-family: 'Times New Roman', Times, serif; font-size: 15px;"><strong>My Fantastic Content</strong></p>
+        </div>
+
+        <div class="GridTwo">
+        
+             <div class="red-text">
+                <p>whatever</p>
+             </div>
+
+             <div class="blue-text">
+                <p><strong>text</strong></p>
+             </div>
+
+             <div class="yellow-text">
+               <p>I want</p>
+             </div>
+        </div>
+      </div>
+
+        <div class="GridThree">
+          <div class="title">
+            <p>The text I chose is Awsome</p>
+          </div>
+          <div class="img">
+            <img src="imagenes/kelly-sikkema-hSPVuakrJqs-unsplash.jpg" alt="" />
+          </div>
+        </div>
+
+      <div class="gridFour">
+        <div class="green-background">
+          <p><strong>My Even More Awesome Text</strong></p>
+        </div>
+
+        <div id="menu">
+          <p><strong>My left text</strong></p>
+          <p><strong>My right text </strong></p>
+        </div>
+      </div>
+      
+      <did class="gridFive">
+        <div class="grey-container">
+          <p><strong>My Even More Awesome Text</strong></p>
+        </div>
+
+        <div class="imgs">
+          <img src="imagenes/photo-1487782310695-ed8583618566.jpg" alt="">
+          <img src="imagenes/photo-1551582045-6ec9c11d8697.jpg" alt="">
+        </div>
+
+      </did>
+
+    <div class="gridSix">
+   
+        <i class="fa-solid fa-globe"></i>
+        <p>MY AWESOME GOOGLE FONT IS APPLIED HERE</p>
+      </div>
+    </div>
+
+
+      </div>
+    </div>
+  </body>
+</html>
